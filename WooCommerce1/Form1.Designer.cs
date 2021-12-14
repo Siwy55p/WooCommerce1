@@ -69,6 +69,10 @@
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.WooCommerce = new System.Windows.Forms.GroupBox();
+            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
@@ -90,16 +94,13 @@
             this.button10 = new System.Windows.Forms.Button();
             this.label17 = new System.Windows.Forms.Label();
             this.txtFileName = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
-            this.button12 = new System.Windows.Forms.Button();
-            this.dataGridView4 = new System.Windows.Forms.DataGridView();
-            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
             this.richTextBox9 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
+            this.dataGridView4 = new System.Windows.Forms.DataGridView();
+            this.button12 = new System.Windows.Forms.Button();
+            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox10 = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -107,12 +108,12 @@
             this.tabPage2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.WooCommerce.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBooks)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             this.SuspendLayout();
@@ -169,6 +170,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.richTextBox10);
             this.groupBox1.Controls.Add(this.richTextBox1);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.tbversionapi);
@@ -519,6 +521,45 @@
             this.WooCommerce.TabStop = false;
             this.WooCommerce.Text = "WooCommerce";
             // 
+            // richTextBox6
+            // 
+            this.richTextBox6.Location = new System.Drawing.Point(23, 206);
+            this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.Size = new System.Drawing.Size(108, 68);
+            this.richTextBox6.TabIndex = 25;
+            this.richTextBox6.Text = "";
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
+            this.dataGridView3.AllowUserToAddRows = false;
+            this.dataGridView3.AllowUserToDeleteRows = false;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Location = new System.Drawing.Point(175, 66);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.ReadOnly = true;
+            this.dataGridView3.Size = new System.Drawing.Size(240, 90);
+            this.dataGridView3.TabIndex = 24;
+            this.dataGridView3.SelectionChanged += new System.EventHandler(this.dataGridView3_SelectionChanged);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(260, 44);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(38, 13);
+            this.label19.TabIndex = 23;
+            this.label19.Text = "nazwa";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(238, 43);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(16, 13);
+            this.label18.TabIndex = 22;
+            this.label18.Text = "Id";
+            // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
@@ -719,45 +760,6 @@
             this.txtFileName.Size = new System.Drawing.Size(530, 20);
             this.txtFileName.TabIndex = 0;
             // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(238, 43);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(16, 13);
-            this.label18.TabIndex = 22;
-            this.label18.Text = "Id";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(260, 44);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(38, 13);
-            this.label19.TabIndex = 23;
-            this.label19.Text = "nazwa";
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            this.dataGridView3.AllowUserToAddRows = false;
-            this.dataGridView3.AllowUserToDeleteRows = false;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(175, 66);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.ReadOnly = true;
-            this.dataGridView3.Size = new System.Drawing.Size(240, 90);
-            this.dataGridView3.TabIndex = 24;
-            this.dataGridView3.SelectionChanged += new System.EventHandler(this.dataGridView3_SelectionChanged);
-            // 
-            // richTextBox6
-            // 
-            this.richTextBox6.Location = new System.Drawing.Point(23, 206);
-            this.richTextBox6.Name = "richTextBox6";
-            this.richTextBox6.Size = new System.Drawing.Size(108, 68);
-            this.richTextBox6.TabIndex = 25;
-            this.richTextBox6.Text = "";
-            // 
             // tabPage5
             // 
             this.tabPage5.Controls.Add(this.richTextBox9);
@@ -773,13 +775,29 @@
             this.tabPage5.Text = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // richTextBox7
+            // richTextBox9
             // 
-            this.richTextBox7.Location = new System.Drawing.Point(22, 45);
-            this.richTextBox7.Name = "richTextBox7";
-            this.richTextBox7.Size = new System.Drawing.Size(367, 119);
-            this.richTextBox7.TabIndex = 0;
-            this.richTextBox7.Text = resources.GetString("richTextBox7.Text");
+            this.richTextBox9.Location = new System.Drawing.Point(658, 45);
+            this.richTextBox9.Name = "richTextBox9";
+            this.richTextBox9.Size = new System.Drawing.Size(433, 303);
+            this.richTextBox9.TabIndex = 4;
+            this.richTextBox9.Text = resources.GetString("richTextBox9.Text");
+            // 
+            // richTextBox8
+            // 
+            this.richTextBox8.Location = new System.Drawing.Point(22, 186);
+            this.richTextBox8.Name = "richTextBox8";
+            this.richTextBox8.Size = new System.Drawing.Size(367, 119);
+            this.richTextBox8.TabIndex = 3;
+            this.richTextBox8.Text = "";
+            // 
+            // dataGridView4
+            // 
+            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView4.Location = new System.Drawing.Point(395, 88);
+            this.dataGridView4.Name = "dataGridView4";
+            this.dataGridView4.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView4.TabIndex = 2;
             // 
             // button12
             // 
@@ -791,29 +809,23 @@
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
-            // dataGridView4
+            // richTextBox7
             // 
-            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView4.Location = new System.Drawing.Point(395, 88);
-            this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.Size = new System.Drawing.Size(240, 150);
-            this.dataGridView4.TabIndex = 2;
+            this.richTextBox7.Location = new System.Drawing.Point(22, 45);
+            this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.Size = new System.Drawing.Size(367, 119);
+            this.richTextBox7.TabIndex = 0;
+            this.richTextBox7.Text = resources.GetString("richTextBox7.Text");
             // 
-            // richTextBox8
+            // richTextBox10
             // 
-            this.richTextBox8.Location = new System.Drawing.Point(22, 186);
-            this.richTextBox8.Name = "richTextBox8";
-            this.richTextBox8.Size = new System.Drawing.Size(367, 119);
-            this.richTextBox8.TabIndex = 3;
-            this.richTextBox8.Text = "";
-            // 
-            // richTextBox9
-            // 
-            this.richTextBox9.Location = new System.Drawing.Point(658, 45);
-            this.richTextBox9.Name = "richTextBox9";
-            this.richTextBox9.Size = new System.Drawing.Size(433, 303);
-            this.richTextBox9.TabIndex = 4;
-            this.richTextBox9.Text = resources.GetString("richTextBox9.Text");
+            this.richTextBox10.Location = new System.Drawing.Point(252, 59);
+            this.richTextBox10.Name = "richTextBox10";
+            this.richTextBox10.Size = new System.Drawing.Size(209, 137);
+            this.richTextBox10.TabIndex = 11;
+            this.richTextBox10.Text = "WooCommerce - wordpress\n10.0.1.101/wordpress/wp-json/wc-api/v3\nwcKey: ck_38bb391d" +
+    "6c6b14a10a9279a2bc203b83ac50c505\nwc_secret: cs_5da98f179e1f513c52d69830eaf9beaca" +
+    "440c1f9\n\n";
             // 
             // Form1
             // 
@@ -835,6 +847,7 @@
             this.groupBox3.PerformLayout();
             this.WooCommerce.ResumeLayout(false);
             this.WooCommerce.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
@@ -842,7 +855,6 @@
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBooks)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.tabPage5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             this.ResumeLayout(false);
@@ -922,6 +934,7 @@
         private System.Windows.Forms.DataGridView dataGridView4;
         private System.Windows.Forms.RichTextBox richTextBox8;
         private System.Windows.Forms.RichTextBox richTextBox9;
+        private System.Windows.Forms.RichTextBox richTextBox10;
     }
 }
 
